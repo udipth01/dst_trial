@@ -1,0 +1,7 @@
+openai==0.28
+faker
+pillow
+flask
+scikit-learn
+numpy
+pytesseract
