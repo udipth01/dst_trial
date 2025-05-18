@@ -22,7 +22,7 @@ def run_task(task_description):
             return "Formatted /usr/src/app/format.md using Prettier", 200
         elif "count wednesdays" in task_description.lower():
             # Task A3: Count Wednesdays in dates.txt
-            with open("/data/date.txt", "r") as file:
+            with open("/data/dat.txt", "r") as file:
                 dates = file.readlines()
             wednesdays = sum(1 for date in dates if "Wednesday" in date)
             with open("/data/dates-wednesdays.txt", "w") as file:
